@@ -2,7 +2,7 @@ Name: hunspell-br
 Summary: Breton hunspell dictionaries
 Epoch: 1
 Version: 0.8
-Release: 4%{?dist}
+Release: 5%{?dist}
 Group: Applications/Text
 URL: http://www.drouizig.org/
 Source: http://extensions.services.openoffice.org/e-files/2207/6/dict-br_0.8.oxt
@@ -35,6 +35,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:0.8-5
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1:0.8-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
